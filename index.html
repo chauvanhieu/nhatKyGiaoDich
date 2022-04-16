@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NHẬT KÝ GIAO DỊCH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="control">
+
+
+
+            <!-- <h2>Tiền còn lại: <span id="money"></span> VNĐ</h2>
+            <button onclick="nap()">Thêm tiền</button>
+            <div id="bangNapTien" class="bangNapTien ">
+                <h2>Thêm tiền vào tài khoản</h2>
+                <input type="number" id="soTienMuonNap"><br/>
+                <button onclick="napXong(tienConLai)">Thêm</button>
+            </div> -->
+
+
+            <div class="giaoDich">
+                <h2 id="themGiaoDich">Nhập đơn hàng:</h2>
+                <input type="text" placeholder="Tên khách hàng/Tiền xăng" id="tenKhachHang"><br/>
+                <input type="text" placeholder="Gửi xe" id="xe"><br/>
+                <input type="number" placeholder="Số tiền" id="soTien"><br/>
+                <button onclick="xong()">Xong!</button>
+            </div>
+
+
+        </div>
+        <div class="lichSuGiaoDich ">
+            <h2 id="lsgd">Lịch sử giao dịch</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tên khách hàng</th>
+                        <th>Xe vận chuyển</th>
+                        <th>Số tiền</th>
+                        <th>Ngày</th>
+                    </tr>
+                </thead>
+                <tbody id="items">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
